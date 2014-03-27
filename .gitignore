@@ -1,4 +1,7 @@
 /nbproject/
-/app/config/lorry.php
-/app/config/opauth.php
-composer.lock
+/web/bundles/
+/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/vendor/
+/app/config/parameters.yml
