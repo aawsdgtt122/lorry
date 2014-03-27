@@ -1,0 +1,7 @@
+parameters:
+#    lorry.example.class: Lorry\LorryBundle\Example
+
+services:
+#    lorry.example:
+#        class: %lorry.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
