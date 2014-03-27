@@ -1,0 +1,19 @@
+front:
+    pattern:  /
+    defaults: { _controller: LorryBundle:Site:index }
+    
+login:
+    pattern: /login
+    defaults: { _controller: LorryBundle:Account:login }
+
+register:
+    pattern: /register
+    defaults: { _controller: LorryBundle:Account:register }
+
+logout:
+    pattern: /logout
+    defaults: { _controller: LorryBundle:Account:logout }
+
+settings:
+    pattern: /settings
+    defaults: { _controller: LorryBundle:Account:settings }
