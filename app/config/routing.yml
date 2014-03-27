@@ -1,0 +1,4 @@
+lorry:
+    resource: "@LorryBundle/Resources/config/routing.yml"
+    prefix:   /
+
