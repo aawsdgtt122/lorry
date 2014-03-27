@@ -1,6 +1,6 @@
 front:
     pattern:  /
-    defaults: { _controller: LorryBundle:Site:index }
+    defaults: { _controller: LorryBundle:Site:front }
     
 login:
     pattern: /login

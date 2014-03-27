@@ -4,13 +4,13 @@ namespace Lorry\LorryBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class TestControllerTest extends WebTestCase
+class SiteControllerTest extends WebTestCase
 {
-    public function testShow()
+    public function testFront()
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/show');
+        $crawler = $client->request('GET', '/front');
     }
 
 }
